@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.kaha{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: center;
+    text-align: justify;
+}
+header{
+    background-color: black;
+    border-radius: 25px;
+    text-align: right;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 5%;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+nav{
+    padding-left: 60px;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: absolute;
+}
+nav ul li{
+    display: inline-block;
+    font-family: 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    margin:0px 20px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.lamans h1{
+    font-size: 60px;
+    font-weight: 1000;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: lemonchiffon;
+}
+.lamans p{
+    font-size: 20px;
+    color: white;
+}
+.lamans{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.lamans .btn{
+    display: inline-block;
+    background: gold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: blue;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 30px;
+}
+button:hover{
+    background-color: #d4af37;
+}
+footer{
+    background: #131313;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 30px;
+    color: white;
+}
+.laman2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 0 auto;
+    text-align: center;
+}
+.laman2 h3, p{
+    margin-top:2rem;
+    margin-bottom: 1rem;
+}
+.laman2 a{
+    color: white;
+    text-decoration: none;
+}
+.socmeds{
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 1rem  3rem ;
+}
+.socmeds li{
+    margin: 10px;
+}
+.socmeds a{
+    text-decoration: none;
+    color: white;
+}
+.socmeds a i{
+    font-size: 1.5rem;
+}
+.socmeds a:hover i{
+    color: #d4af37;
+}
+.laman3{
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+}
+.laman3 span{
+    color: #d4af37;
+}
+.laman1-2{
+    background-color: #443201;
+}
+.laman1-2 p{
+    font-size: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 1rem  3rem;
+    padding-top: 1%;
+}
+.laman2 img{
+    margin: 1%;
+}
